@@ -17,7 +17,7 @@ export default function NewArrival() {
               layout="fill"
               objectFit="cover"
               className="relative"
-            />
+            ></Image>
             <div className="absolute bg-none h-40 w-72 bottom-0 left-5 text-white z-[1]">
               <span className="text-3xl block">Play station 5</span>
               <span className="block text-justify text-xs font-sans opacity-65 leading-tight">
@@ -36,7 +36,7 @@ export default function NewArrival() {
               layout="fill"
               objectFit="cover"
               className="transform scale-x-[-1] relative"
-            />
+            ></Image>
             <div className="absolute bg-none h-40 w-72 bottom-0 left-5 text-white z-[1]">
               <span className="text-2xl block mt-8">Women Collection&apos;s</span>
               <span className="block text-justify text-xs font-sans opacity-65 leading-tight">
@@ -56,7 +56,7 @@ export default function NewArrival() {
               width={300}
               height={300}
               className="ml-10 h-full w-full object-cover"
-            />
+            ></Image>
             <div className="absolute bg-none h-40 w-72 bottom-0 left-5 text-white z-[1]">
               <span className="text-xl block mt-8">Speaker</span>
               <span className="block text-justify text-xs font-sans w-40 opacity-65 leading-tight">
@@ -76,7 +76,7 @@ export default function NewArrival() {
               width={300}
               height={300}
               className="h-full w-full object-cover"
-            />
+            ></Image>
             <div className="absolute bg-none h-40 w-72 bottom-0 left-5 text-white z-[1]">
               <span className="text-xl block mt-8">Perfumes</span>
               <span className="block text-justify text-xs font-sans w-40 opacity-65 leading-tight">

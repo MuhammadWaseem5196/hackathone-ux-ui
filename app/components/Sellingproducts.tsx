@@ -55,7 +55,7 @@ export default function SellingProd() {
                   width={300} // Set width for the image
                   height={300} // Set height for the image
                   className="w-30 h-40 ml-3"
-                />
+                ></Image>
                 {/* Discount Badge */}
                 <span className="absolute top-2 left-2 bg-red-500 text-white px-3 py-1 text-sm font-semibold rounded-lg">
                   - 20%
@@ -133,7 +133,7 @@ export default function SellingProd() {
                 width={700} // Set width for the image
                 height={700} // Set height for the image
                 className="transform scale-x-[-1] z-[1] relative"
-              />
+              ></Image>
             </div>
             <div className="h-80 w-80 rounded-full bg-white opacity-25 blur-2xl absolute"></div>
           </div>

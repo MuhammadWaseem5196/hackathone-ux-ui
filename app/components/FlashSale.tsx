@@ -75,7 +75,7 @@ export default function FlashSale() {
                   width={300}  // Add width and height for Image optimization
                   height={300} // Ensure correct aspect ratio
                   className="ml-3"
-                />
+                ></Image>
                 {/* Discount Badge */}
                 <span className="absolute top-2 left-2 bg-red-500 text-white px-3 py-1 text-sm font-semibold rounded-lg">
                   - 20%
