@@ -48,12 +48,12 @@ export default function SellingProd() {
               key={id}
             >
               {/* Image Section */}
-              <div className="relative bg-gray-200 p-6">
+              <div className="relative bg-gray-200 p-6 h-48">
                 <Image
                   src={val.image}
                   alt="Product"
-                  width={120} // Set width for the image
-                  height={160} // Set height for the image
+                  width={300} // Set width for the image
+                  height={300} // Set height for the image
                   className="w-30 h-40 ml-3"
                 />
                 {/* Discount Badge */}
@@ -130,8 +130,8 @@ export default function SellingProd() {
               <Image
                 src="/images/7e210f637fc0504b7d93cd207df744c2.png"
                 alt="Image"
-                width={300} // Set width for the image
-                height={400} // Set height for the image
+                width={700} // Set width for the image
+                height={700} // Set height for the image
                 className="transform scale-x-[-1] z-[1] relative"
               />
             </div>

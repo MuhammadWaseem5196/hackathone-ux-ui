@@ -65,7 +65,7 @@ export default function OurProduct() {
         <div className="mt-10 grid grid-cols-4 gap-4 mb-10">
           {cart.map((val: items3, id: number) => (
             <div
-              className="w-full bg-white rounded-lg shadow-lg mt-6"
+              className=" bg-white rounded-lg shadow-lg mt-6"
               key={id}
             >
               {/* Image Section */}
@@ -73,8 +73,8 @@ export default function OurProduct() {
                 <Image
                   src={val.image}
                   alt="Product"
-                  width={120} // Set width for the image
-                  height={160} // Set height for the image
+                  width={300} // Set width for the image
+                  height={300} // Set height for the image
                   className="w-30 h-40 ml-3"
                 />
                 {/* Discount Badge */}

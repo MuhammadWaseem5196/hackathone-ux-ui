@@ -66,14 +66,14 @@ export default function FlashSale() {
         <div className="mt-10 flex  gap-4 justify-between">
 
           {cart.map((val: items2, id: number) => (
-            <div className="ml-3 w-60 bg-white rounded-lg shadow-lg overflow-hidden" key={id}>
+            <div className="ml-3 w-60  bg-white rounded-lg shadow-lg overflow-hidden" key={id}>
               {/* Image Section */}
-              <div className="relative bg-gray-200 p-6">
+              <div className="relative bg-gray-200 p-6 h-48">
                 <Image
                   src={val.image}
                   alt="Product"
-                  width={120}  // Add width and height for Image optimization
-                  height={160} // Ensure correct aspect ratio
+                  width={300}  // Add width and height for Image optimization
+                  height={300} // Ensure correct aspect ratio
                   className="ml-3"
                 />
                 {/* Discount Badge */}
