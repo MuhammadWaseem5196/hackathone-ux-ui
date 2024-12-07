@@ -19,7 +19,7 @@ export default function Nevbar() {
             <Link href="/about">
               <span className="mr-8 hover:text-gray-900 cursor-pointer">About</span>
             </Link>
-            <Link href="/account">
+            <Link href="/Account">
               <span className="mr-8 hover:text-gray-900 cursor-pointer">Sign Up</span>
             </Link>
           </nav>

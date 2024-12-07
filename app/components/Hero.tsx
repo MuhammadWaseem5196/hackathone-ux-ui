@@ -30,7 +30,7 @@ export default function Hero(){
                {/* right section  */}
 
                <div className=" pt-12 pl-10  float-start text-white">
-                 <h3 className="font-light text-[13px] mt-2 flex items-center"><span className="text-5xl pr-4 pb-2 "><IoLogoApple /></span>iphone 14 Series</h3>
+                 <h3 className="font-light text-[13px] mt-2 flex items-center"><span className="text-5xl pr-4 pb-2 "><IoLogoApple /></span>iphone 16 Series</h3>
                   <h1 className="text-5xl">Up to 10% Off Voucher</h1>
 
                   <button className=" mt-8  text-white flex items-center"><span className="border-b-[1px] border-b-white">Shop Now</span><span className="pl-3"><FaLongArrowAltRight /></span></button>
